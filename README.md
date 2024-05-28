@@ -24,11 +24,11 @@ Asynchronous - all materials available through Canvas
 |4| Sep 16 |Arrange Tables | Ch 7 | HW3 - Re-Create Charts|
 |5| Sep 23| Tour through the Visualization Zoo | | Semester Project|
 |6| Sep 30| Map Color and Other Channels | Ch 10 | HW4 - Arrange Tables|
-|7| Oct 7| Multiple Views|Ch 12<br/>(skip 12.4.4)||
+|7| Oct 7| Reduce Items | Ch 13 | |
 |8| Oct 14| **Fall Break**<br/>**MID-TERM EXAM** (Oct 18-20)| |
-|9| Oct 21| Reduce Items, Exploratory Data Analysis (EDA) | Ch 13<br/>(through 13.4.1) | HW5 - Analyzing Data Using Distribution Charts|
-|10| Oct 28| Maps, Rules of Thumb, Chart Design| Ch 8.1-8.3<br/>Ch 6 | |
-|11| Nov 4| Networks and Trees | Ch 9 | |
+|9| Oct 21| Exploratory Data Analysis (EDA) |  | HW5 - Analyzing Data Using Distribution Charts|
+|10| Oct 28| Multiple Views|Ch 12||
+|11| Nov 4| Maps, Rules of Thumb, Chart Design| Ch 8.1-8.3<br/>Ch 6 | |
 |12| Nov 11| Storytelling Vis| | |
 |13 |Nov 18| Visualization Literacy | |
 |14| Nov 25|**Thanksgiving Break**| |
