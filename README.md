@@ -24,7 +24,7 @@ Asynchronous - all materials available through Canvas
 |4| Sep 16 |Arrange Tables | Ch 7 | HW3 - Re-Create Charts|
 |5| Sep 23| Tour through the Visualization Zoo | | Semester Project|
 |6| Sep 30| Map Color and Other Channels | Ch 10 | HW4 - Arrange Tables|
-|7| Oct 7| Reduce Items | Ch 13 | |
+|7| Oct 7| Reduce Items and Attributes | Ch 13 | |
 |8| Oct 14| **Fall Break**<br/>**MID-TERM EXAM** (Oct 18-20)| |
 |9| Oct 21| Exploratory Data Analysis (EDA) |  | HW5 - Analyzing Data|
 |10| Oct 28| Multiple Views|Ch 12||
