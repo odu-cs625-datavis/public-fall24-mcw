@@ -26,7 +26,7 @@ Asynchronous - all materials available through Canvas
 |6| Sep 30| Map Color and Other Channels | Ch 10 | HW4 - Arrange Tables|
 |7| Oct 7| Reduce Items | Ch 13 | |
 |8| Oct 14| **Fall Break**<br/>**MID-TERM EXAM** (Oct 18-20)| |
-|9| Oct 21| Exploratory Data Analysis (EDA) |  | HW5 - Analyzing Data Using Distribution Charts|
+|9| Oct 21| Exploratory Data Analysis (EDA) |  | HW5 - Analyzing Data|
 |10| Oct 28| Multiple Views|Ch 12||
 |11| Nov 4| Maps, Rules of Thumb, Chart Design| Ch 8.1-8.3<br/>Ch 6 | |
 |12| Nov 11| Storytelling Vis| | |
