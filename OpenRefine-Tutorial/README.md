@@ -212,7 +212,7 @@ Once that's been added to your left panel, click **true** in the new facet to sh
 > [!NOTE]
 > :rotating_light: **Q12:** How many entries used the term "million" in the endowment column?
 
-It's not advisable to just replace "million" by "000000" since you have some values like "$13.8 million", which would be converted to "$13.8000000". It's better to first remove "million" from the text, convert the remaining text to a number, and then multiply this by 1000000.  We can do this in a single GREL line in **Edit cells -> Transform**.
+It's not advisable to just replace "million" by "000000" since you have some values like "$13.8 million", which would be converted to "$13.8000000". It's better to first remove "million" from the text, convert the remaining text to a number, and then multiply this by 1000000.  We can do this in a single GREL line in **Edit cells > Transform**.
 
 ```grel
 toNumber(value.replace(" million", ""))*1000000
@@ -239,7 +239,7 @@ First we want to convert everything to text - **Edit cells > Common transformati
 
 If only a year is listed, then the date created will use January 1st as the month and day. We will clean this up later to use only the year.
 
-To further clean up the dates, we need to use **Facet -> Timeline facet** and select only **"Non-Time"** values. 
+To further clean up the dates, we need to use **Facet > Timeline facet** and select only **"Non-Time"** values. 
 
 > [!NOTE]
 > :rotating_light: **Q14:** How many of the established dates are non-time values?
@@ -250,7 +250,7 @@ This shows us that we have a bit of a tricky situation as years are mixed in wit
 
 *Regular Expressions*. Source:[XKCD](http://xkcd.com/208/), [CC BY-NC 2.5](http://creativecommons.org/licenses/by-nc/2.5/) license.
 
-We now want to do **Edit cells -> Transform**, and use the code below.
+We now want to do **Edit cells > Transform**, and use the code below.
 
 ```grel
 value.match(/.*(\d{4}).*/)[0]
@@ -264,9 +264,9 @@ Here's what the symbols mean:
   
 [![OpenRefine-CleanUpDates.png](OpenRefine-CleanUpDates.png)](OpenRefine-CleanUpDates.png)
 
-We can now **convert these extracted values to dates** using **Edit cells -> Common transformations -> To date**.
+We can now **convert these extracted values to dates** using **Edit cells > Common transformations > To date**.
 
-At this point, we've done almost everything we can to track down usable dates, and we now want to just **extract the years**. To do this, we want to **Edit cells -> Transform** with the code below:
+At this point, we've done almost everything we can to track down usable dates, and we now want to just **extract the years**. First, we need to select the **Time** entries in our Timeline Facet.  Then, we want to **Edit cells > Transform** with the code below:
 
 ```grel
 value.toString('yyyy')
@@ -289,6 +289,8 @@ As described in [GREL Date Functions](https://openrefine.org/docs/manual/grelfun
 value.toDate('MM/yy','MMM-yy').toString('yyyy-MM')
 ```
 
+We're just going to leave the years here as text, so there's nothing else needed to do here.
+
 ### Deduplicate entries
 
 There's a lot of (nearly) duplicate rows in the data. Why this happens is a bit of a long story, and is due to Wikipedia having things like multiple numbers of students listed for different years. When the data is retrieved, permutations of these values are returned. To make things simple, we want to just keep the first row of data for each university.
@@ -307,7 +309,7 @@ Then still on the **university** column, do **Facet > Customized facets > Facet 
 
 [![OpenRefine-FacetByBlank.png](OpenRefine-FacetByBlank.png)](OpenRefine-FacetByBlank.png)
 
-Now we want to remove all the blank rows, so select **true** in the facet to show all of the rows that have blank in the **university** column. Then on the **"All"** column, do **Edit rows > Remove all matching rows**, like you have done when working with the numStudents and endowment columns.
+Now we want to remove all the blank rows, so select **true** in the facet to show all of the rows that have blank in the **university** column. Then on the **All** column, do **Edit rows > Remove all matching rows**, like you have done when working with the numStudents and endowment columns.
 
 Then close all of the facets, and you now have a (mostly) cleaned data set.
 
