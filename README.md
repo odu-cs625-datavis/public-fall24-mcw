@@ -1,6 +1,6 @@
 # ODU CS 625 - Data Visualization, Fall 2024 - M.C. Weigle
 
-Asynchronous - all materials available through Canvas
+Asynchronous - all materials available through Canvas or GitHub
 
 ## Links
 
@@ -14,7 +14,7 @@ Asynchronous - all materials available through Canvas
 
 ## Summary Schedule
 
-*This schedule will not be updated after the semester begins.  See the [Summary Schedule on Canvas](https://canvas.odu.edu/courses/161806/pages/summary-schedule) for the updated schedule.*
+*This schedule will not be updated after the semester begins.  See the [Summary Schedule on Canvas](https://canvas.odu.edu/courses/161806#summary) for the updated schedule.*
 
 |Week |Date|Topic| Textbook Reading| Assignments|
 |---|---|---|---|---|
@@ -33,3 +33,4 @@ Asynchronous - all materials available through Canvas
 |13 |Nov 18| Visualization Literacy | |
 |14| Nov 25|**Thanksgiving Break**| |
 |15| Dec 2| Project Demos |  | |
+| | Fri, Dec 6| *last day of classes* | | |
