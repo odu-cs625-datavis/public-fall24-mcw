@@ -126,6 +126,7 @@ Your grade in this class will be based on the following components:
 
 * demonstrates understanding of practical elements of course concepts through implementation
 * requires an accompanying report that explains the implementation
+* students in the MS in Computer Science program are required to complete at least two homework assignments in Python or Vega-Lite
 * ~5 homework assignments during the semester
 * rubric (0-10):
    * 10 pts - A+, Excellent! All questions/tasks addressed appropriately, report is clear and thorough, only minor formatting/spelling/grammatical errors, if any.
