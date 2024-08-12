@@ -21,8 +21,8 @@ Office hours are times that I set aside each week to meet with students and answ
 My office hours will be:
 
 * Tuesday 5-6pm
-* Wednesday 7-8pm
-* Friday 8-9**am**
+* Wednesday 7:30-8:30pm
+* Friday 8-9**AM**
 
 See [Canvas](https://canvas.odu.edu/courses/161806) for the link, students will be placed into the waiting room if I am already meeting with another student.
 
