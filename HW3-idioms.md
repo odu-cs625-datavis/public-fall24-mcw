@@ -29,6 +29,8 @@ As stated above, create charts using three different idioms:
 
 All of the charts must have a similar style ("look and feel") and must have meaningful axis labels.
 
+You may use whatever visualization tool you wish, but CS students must use Python or Vega-Lite for at least 2 of their HW assignments (and the project) this semester.
+
 After you have created the three charts, you must **recreate** one of the charts using a different tool. This recreation should look as close as possible to the original.
 
 In summary, you will be creating **four charts**: three charts using one tool, and the fourth chart using a different tool.
