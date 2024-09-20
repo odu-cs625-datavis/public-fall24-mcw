@@ -107,8 +107,8 @@ Your grade in this class will be based on the following components:
 * comprised of "meaningful interactions", which can include posting a question in the Canvas Discussion Board, providing the first correct/helpful answer to a classmate's question in the Discussion Board, posting about an interesting visualization in the Discussion Board, attending office hours (or alternate meeting time) to ask a question, etc.
 * rubric (0-4):
   * 4 pts - 4 or more weeks with a meaningful interaction
-  * 3 pts - 3 weeks with a meaninful interaction
-  * 2 pts - 2 weeks with a meaninful interaction
+  * 3 pts - 3 weeks with a meaningful interaction
+  * 2 pts - 2 weeks with a meaningful interaction
   * 1 pt - 1 week with a meaningful interaction
   * 0 pt - no meaningful interactions during the semester
 
