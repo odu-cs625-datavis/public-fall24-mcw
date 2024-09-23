@@ -2,7 +2,7 @@
 
 Original source: <http://enipedia.tudelft.nl/wiki/OpenRefine-Tutorial> (*link no longer works*), written by David François Huynh, last updated 5 October 2017, at 15:03.
 
-This document is a modification based on the version archived by the Internet Archive in January 2019, <http://web.archive.org/web/20190105063215/enipedia.tudelft.nl/wiki/OpenRefine-Tutorial>. Screenshots were re-generated in 2024 using OpenRefine 3.8.0. 
+This document is a modification based on the version archived by the Internet Archive in January 2019, <http://web.archive.org/web/20190105063215/enipedia.tudelft.nl/wiki/OpenRefine_Tutorial>. Screenshots were re-generated in 2024 using OpenRefine 3.8.0. 
 
 Questions were added in 2024 for CS 625 and are shown in the following style:
 > [!NOTE]
