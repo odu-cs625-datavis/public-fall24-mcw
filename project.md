@@ -35,8 +35,6 @@ This is also an opportunity to use ChatGPT or other AI tool to help you brainsto
 * `Where can I find data about oceans and acidifcation?`
 * `What are some climate factors that could affect ocean acidification?`
 
-You can view the full conversation at <https://chat.openai.com/share/51344d2f-fc7c-4325-b245-8d82592cd8e0>.
-
 **Data Sources:** [Data Sources](data.md) contains links to several public data sources. Be careful about the size of the dataset. You probably want on the order of 100s-1000s of items rather than millions.
 
 **Questions:** Propose at least 2 questions about your topic that you could answer via visualization. For each question, state one or more hypotheses of what you might find in the data. (It doesn't matter if they turn out to be true or not.)
