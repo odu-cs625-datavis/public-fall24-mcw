@@ -1,18 +1,16 @@
 # Examples of Combining Datasets in Visualizations
 
-I've recently come across a couple nice examples of combining datasets in visualizations. I'll show them here along with previous examples that I've shown.
+These are a couple nice examples of combining datasets in visualizations. 
 
 ## US COVID Case Rates and US County Demographics
 
 <img src="imgs/US-covid-metro.png" height="400"/>
 
-I saw this visualization through a [tweet by @agsciencewriter](https://twitter.com/agsciencewriter/status/1467521843162750976).  It's based on data from the CDC and can be reproduced at [Trends in COVID-19 Cases and Deaths in the United States, by County-level Population Factors](https://covid.cdc.gov/covid-data-tracker/#pop-factors_7daynewcases).
-
-Read the "Footnotes" section to understand where all of the data comes from and how it's calculated.
+I saw this visualization through a tweet by @agsciencewriter (account no longer exists). It was based on data from the CDC when they were reporting COVID data regularly. 
 
 Data combinations:
 * COVID case rate by county
-* US county metro vs. non-metro classification, from https://www.cdc.gov/nchs/data_access/urban_rural.htm
+* US county metro vs. non-metro classification, available from the USDA, <https://www.ers.usda.gov/data-products/rural-urban-continuum-codes/>
 
 ## Missouri Mask Mandates and COVID Case Rates
 
@@ -57,9 +55,28 @@ Data combinations:
 
 <img src="imgs/Poverty-Audit-Rate2.png" height="400"/>
 
-This visualization comes from ["Geographic Distribution of IRS Auditing Rates"](https://policyviz.com/2019/05/02/geographic-distribution-of-irs-auditing-rates/) in [PolicyViz.com](https://policyviz.com). 
+This visualization comes from ["Geographic Distribution of IRS Auditing Rates"](https://policyviz.com/2019/05/02/geographic-distribution-of-irs-auditing-rates/) in PolicyViz.com. 
 
 Data combinations:
-* US poverty rate by county, from https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_1YR_S1903&prodType=table
-* IRS auditing rate by county, from https://www.propublica.org/datastore/dataset/irs-audit-rates-by-county
-* Voting in the 2016 US Presidential Election, from https://github.com/tonmcg
+* US poverty rate by county, from <https://data.census.gov/table/ACSST5Y2022.S1701?q=poverty&g=010XX00US$0500000>
+* IRS auditing rate by county, from <https://www.propublica.org/datastore/dataset/irs-audit-rates-by-county>
+* [Voting in the 2016 US Presidential Election](https://github.com/tonmcg/US_County_Level_Election_Results_08-20), from <https://github.com/tonmcg>
+
+## Florida vs. US Covid Deaths in 2021
+
+This has two charts as examples and comes from a *New York Times* article, ["The Steep Cost of Ron DeSantis' Vaccine Turnabout"](https://www.nytimes.com/2023/07/22/us/politics/ron-desantis-covid.html), July 2023.  These are good examples of adding context to charts to aid in understanding.
+
+<img src="imgs/nyt-florida-covid-1.png" height="400"/>
+
+Data combinations:
+* COVID death rates in Florida
+* COVID death rates in US, average
+* context of when vaccines were eligible and when the Delta wave began
+
+<img src="imgs/nyt-florida-covid-2.png" height="400"/>
+
+Data combinations:
+* Vaccination rates in Florida, split by "under 65" and "65 and older"
+* Vaccination rates in US, split by "under 65" and "65 and older"
+
+In particular, this chart adds context to help the viewer understand what's being shown in the chart, explaining specific data points. This also shows how data from a single dataset can be split based on a categorical grouping to highlight differences between groups.
