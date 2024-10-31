@@ -18,11 +18,11 @@ Asynchronous Online
 
 Office hours are times that I set aside each week to meet with students and answer questions about the course. No appointment is necessary. This semester, all office hours will be via Zoom and will be held outside of regular work hours to accomodate working students.
 
-My office hours will be:
+My office hours are (*updated*):
 
-* Tuesday 5-6pm
-* Wednesday 7:30-8:30pm
-* Friday 8-9**AM**
+* Wednesday 5-6pm
+* Thursday 11am-noon
+* Friday 3-4:30pm
 
 See [Canvas](https://canvas.odu.edu/courses/161806) for the link, students will be placed into the waiting room if I am already meeting with another student.
 
